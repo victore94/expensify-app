@@ -1,4 +1,4 @@
-import * as firebase from 'firebase'
+import * as firebase from 'firebase';
 
 const config = {
     apiKey: process.env.FIREBASE_API_KEY,
@@ -13,9 +13,9 @@ const config = {
 
 firebase.initializeApp(config);
 
-const database = firebase.database()
+const database = firebase.database();
 
-export { firebase, database as default }
+export { firebase, database as default };
 
 
 // database.ref('expenses').on('child_removed', (snapshot) => {
