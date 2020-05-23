@@ -102,7 +102,6 @@ export { firebase, database as default };
 // //         console.log('error', e)
 // //     })
 
-
 // // database.ref().set({
 // //     name: 'Jessica Lara',
 // //     age: 26,
