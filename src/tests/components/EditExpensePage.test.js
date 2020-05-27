@@ -3,6 +3,7 @@ import { shallow } from 'enzyme';
 import expenses from '../fixtures/expenses';
 import { EditExpensePage } from '../../components/EditExpensePage';
 
+
 let startEditExpense, startRemoveExpense, history, wrapper;
 
 beforeEach(() => {
